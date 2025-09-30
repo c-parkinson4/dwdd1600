@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Crystal Parkinson">
+    <meta name="description" content="Learn about ADHD in Girls and Women">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="adhd.css">
+    <title>ADHD in Girls and Women: Understanding ADHD: The Basics</title>
+</head>
+
+<body>
+
+    <!--start the page head-->
+    <header>
+        <span>ADHD in Girls and Women</span>
+    </header>
+
+    <!--start the page navigation-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Understanding ADHD: The Basics</a></li>
+            <li><a href="symptom.html">Symptom Presentation</a></li>
+            <li><a href="masking.html"> ADHD Masking</a></li>
+            <li class="active"><a href="form.html"> Feedback Form </a></li>
+        </ul>
+
+
+    </nav>
+
+    <!--start the main content-->
+    <main>
+        <h1>Feedback Form</h1>
+        <form method="get" class="myForm" action="thanks.html">
+            <fieldset>
+                <legend>Your Information</legend>
+                <label>First Name* <input type="text" name="fname" required></label>
+                <label>Last Name* <input type="text" name="lname" required></label>
+                <label>Email* <input type="email" name="email" required></label>
+                <label>Phone Number <input type="tel" name="phone" placeholder="123-456-7890"></label>
+            </fieldset>
+
+             <fieldset>
+                <legend>What is your primary reason for visiting today?</legend>
+               <label>
+                <select name="reason">
+                    <option value="none">Please Select</option>
+                    <option value="symptoms">Learning about ADHD symptoms</option>
+                    <option value="coping">Coping strategies and tools</option>
+                    <option value="resources">Resources and support</option>
+                    <option value="research">Research or school project</option>
+                    <option value="other">Other</option>
+                </select>
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>How helpful was the information on this site?</legend>
+                <label><input type="radio" name="helpful" value="veryhelpful">Very Helpful</label>
+                <label><input type="radio" name="helpful" value="somewhathelpful">Somewhat Helpful</label>
+                <label><input type="radio" name="helpful" value="neutral">Neutral</label>
+                <label><input type="radio" name="helpful" value="notveryhelpful">Not Very Helpful</label>
+                <label><input type="radio" name="helpful" value="notatall">Not At All Helpful</label>
+            </fieldset>
+
+           
+
+            <fieldset>
+                <legend>What ADHD related topics are you most interested in?</legend>
+                <label><input type="checkbox" name="symptomsdiagnosis" value="selected">Symptoms and Diagnosis</label>
+                <label><input type="checkbox" name="masking" value="selected">ADHD Masking</label>
+                <label><input type="checkbox" name="copingtools" value="selected">Coping Strategies and Tools</label>
+                <label><input type="checkbox" name="timeorganization" value="selected">Time Management and
+                    Organization</label>
+                <label><input type="checkbox" name="emotionalrsd" value="selected">Emotional Regulation and Rejection
+                    Sensitivity</label>
+                <label><input type="checkbox" name="adults" value="selected">ADHD in adults</label>
+                <label><input type="checkbox" name="children" value="selected">ADHD in Children/Teens</label>
+                <label><input type="checkbox" name="relationship" value="selected">Relationships and
+                    Communication</label>
+                <label><input type="checkbox" name="accomodations" value="selected">School/Workplace
+                    Accomodations</label>
+                <label><input type="checkbox" name="mentalhealth" value="selected">Mental Health Concerns</label>
+                <label><input type="checkbox" name="positives" value="selected">Strengths and Positives of ADHD</label>
+                <label><input type="checkbox" name="resources" value="selected">Resources and Support</label>
+            </fieldset>
+
+            <label> Comments & Questions
+                <textarea name="comments"></textarea>
+
+
+            </label>
+
+
+
+
+
+
+            <input type="submit" value="Send Your Feedback">
+        </form>
+
+
+
+
+
+
+    </main>
+
+    <!--start the page footer-->
+    <footer>
+        <p>&copy;2025 &bull; Crystal Parkinson &bull; Web Essentials</p>
+
+    </footer>
+
+</body>
+
+</html>
