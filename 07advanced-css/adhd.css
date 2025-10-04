@@ -14,13 +14,16 @@ body {
 header {
     background-color: #442E59;
     padding: 1rem 10px;
-  
+    display: flex;
+    gap: 10px;
+    align-items: center;
 }
 
 header span {
     color: #eaeaea;
-    font-size: 2.3rem;
+    font-size: 2.2rem;
     font-weight: 700;
+
 }
 
 /* header logo image */
@@ -62,8 +65,10 @@ header span {
         background-image: none;
         color: #eaeaea;
     }
-   
-}/* end small screens */
+
+}
+
+/* end small screens */
 
 
 
@@ -103,7 +108,9 @@ header span {
         color: #eaeaea;
     }
 
-} /* end LARGE screens */
+}
+
+/* end LARGE screens */
 
 
 /* main body */
@@ -233,7 +240,7 @@ div.gallery img {
 }
 
 div.gallery img:hover {
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5) ;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -312,7 +319,10 @@ footer p {
     letter-spacing: 2px;
 }
 
-header, nav, main, footer {
+header,
+nav,
+main,
+footer {
     max-width: 64rem;
     margin: 0 auto;
 }
